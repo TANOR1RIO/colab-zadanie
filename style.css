@@ -1,443 +1,112 @@
-button{
-    border: solid 0px;
-}
-
-.big_butt{ 
-    color: white;
-    width: 186px;
-    height: 35px;
-    border-radius: 8px;
-    padding-right: 8px;
-    padding-left: 8px;    
-    background: #3182CE;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 10px;
-    letter-spacing: 0%;
-    text-align: center;
-    transition: color 2s;
-}
-.big_butt:hover{
-    background: #2e7ac1;
-}
-.big_butt:active{
-    background: #2a71b2;
-}
-
-.stolb1{
-    display: flex;
-    flex-direction: column;
-    /*align-items: center; */
-}
-
-.textvknopke1{
-    width: 140px;
-    height: 18px;
-    font-weight: 600;
-    font-family: Helvetica;
-    font-size: 12px;
-    line-height: 18px;
-    color: #2D3748;
-    background: #FFFFFF;
-    transition: color 2s;
-    padding-left: 10px; 
-}
-.textvknopke1:active{
-    color: #2D3748;
-}
-.dom{
-    width: 30px;
-    height: 30px;
-    border-radius: 8px;
-    background: #3182CE;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
-.knopka11{
-    width: 220px;
-    height: 54px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center; 
-    text-align: center;
-    box-shadow: 0px 5px 14px 0px #0000000D;
-    padding-left: 15px;
-    transition: color 0.5s;
-}
-
-.textvknopke2{
-    width: 54px;
-    height: 18px;
-}
-.textvknopke2:active{
-    color: #2D3748;
-}
-
-.textvknopke3{
-    width: 150px;
-    height: 18px;
-}
-.textvknopke3:active{
-    color: #2D3748;
-}
-
-.knopka13, .knopka12, .knopka14{
-    width: 220px;
-    height: 54px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center; 
-    text-align: center;
-    padding-left: 15px;
-    transition: 0.5s;
-}
-
-.knopka12:active{
-    box-shadow: 0px 5px 14px 0px #0000000D;
-}
-.knopka13:active{
-    box-shadow: 0px 5px 14px 0px #0000000D;
-}
-.knopka14:active{
-    box-shadow: 0px 5px 14px 0px #0000000D;
-}
-
-.textvknopke4, .textvknopke3, .textvknopke2{
-    font-weight: 600;
-    font-family: Helvetica;
-    font-size: 12px;
-    line-height: 18px;
-    color: #A0AEC0;
-    background: #FFFFFF;
-    padding-left: 12px;
-    transition: color 0.5s; 
-}
-
-.textvknopke4{
-    width: 24px;
-    height: 18px;
-}
-.textvknopke4:active{
-    color: #2D3748;
-}
-
-.kartinkaandnadpisi{
-    display: grid;
-    grid-template-rows:  156px 18px 20px ;
-    grid-template-columns: 204px;
-}
-
-.kartinkaandnadpisi{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.kartinkaa{
-    display: grid;
-    grid-row: 1;
-    grid-column: 1;
-}
-
-.vsevmenu{
-    padding-top: 11px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;   
-}
-
-/*  не могу расположить правильно все что в menu */
-.menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /*justify-content: space-evenly;*/
-    background: #FFFFFF;
-    width: 265px;
-    height: 727px;
-    border-radius: 20px;    
-}
-
-.textakk{
-    width: 141px;
-    height: 18px;
-    font-family: Helvetica;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    color: #2D3748;
-    padding-left: 10px;
-
-}
-
-.stolb2{
-    display: flex;
-    flex-direction: column;
-}
-
-.textvknopke21{
-    width: 56px;
-    height: 18px;
-    
-}
-.textvknopke21:active{
-    color: #2D3748;
-}
-.textvknopke22:active{
-    color: #2D3748;
-}
-
-.textvknopke22, .textvknopke21, .textvknopke23{
-    font-weight: 600;
-    font-family: Helvetica;
-    font-size: 12px;
-    line-height: 18px;
-    color: #A0AEC0;
-    background: #FFFFFF;
-    padding-left: 12px;
-    transition: 0.5s;
-}
-.textvknopke22{
-    width: 37px;
-    height: 18px;
-}
-.textvknopke23{
-    width: 125px;
-    height: 18px;
-}
-
-.knopka22, .knopka23, .knopka21{
-    width: 220px;
-    height: 54px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center; 
-    text-align: center;
-    padding-left: 15px;
-    transition: 0.5s;
-}
-.knopka22:active{
-    box-shadow: 0px 5px 14px 0px #0000000D;
-}
-.knopka23:active{
-    box-shadow: 0px 5px 14px 0px #0000000D;
-}
-.knopka21:active{
-    box-shadow: 0px 5px 14px 0px #0000000D;
-}
-
-.textvknopke23:active{
-    color: #2D3748;
-}
-
-.needhelp{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-}
-
-.texthelp{
-    width: 114px;
-    height: 20px;
-    color: #2D3748;
-    font-family: Helvetica;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19.6px;
-    display: grid;
-    grid-row: 3;
-    grid-column: 3 span;
-}
-
-.salary, .salary1{
-    width: 240px;
-    height: 240px;
-    border-radius: 20px;
-    background: #FFFFFF;
-    box-shadow: 0px 5px 14px 0px #0000000D;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-/*.salary, .salary1{
-    display: grid;
-    grid-template-rows: 30px 64px 22px 25px 3.5px 18px 13.5px 13.5px 25px 25.5px;
-}*/
-
-
-.textsalary1, .textsalary2{
-    width: 85px;
-    height: 25px;
-    color: #2D3748;
-    font-family: Helvetica;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25.2px;
-}/*вотут*/
-
-.podtextsalary1, .podtextsalary2{
-    width: 194px;
-    height: 18px;
-    color: #A0AEC0;
-    font-family: Helvetica;
-    font-weight: bolder;
-    font-size: 12px;
-    line-height: 18px;
-}
-
-.slovavsalsry1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-
-}
-
-.hr1, .hr2{
-    width: 172px;
-    border-width: 1px;
-    border: 1px solid;
-    border-image-source: linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%);
-}
-
-.cifrasalary1, .cifrasalary2{
-    width: 82px;
-    height: 25px;
-    color: #2D3748;
-    font-family: Helvetica;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25.2px;
-    text-align: center;
-}
-
-.inform{
-    width: 900px;
-    height: 538px;
-    border-radius: 20px;
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-}
-
-.vestext{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-}
-
-.zagolovok{
-    width: 324px;
-    height: 25px;
-    color: #2D3748;
-    font-family: Helvetica;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25.2px;
-    padding-left: 21px;
-    padding-bottom: 17.5;
-}
-
-.text1vinform{
-    width: 855px;
-    height: 132.5px;
-    border-radius: 8px;
-    background: #F8F9FA;
-    display: grid;
-    grid-template-rows: 26px 20px 60.5px 26px;
-    grid-template-columns:25px 750.5px 77.5px;
-}
-
-.knopkivtext1, .knopkivtext2, .knopkivtext3{
-    width: 94px;
-    height: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;  
-    padding-top: 18px ;
-}
-
-.ydalit1, .ydalit2, .ydalit3{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 3.5px;
-    background: #f8f9fa00;
-}
-
-.inform11, .inform12, .inform13{
-    font-weight: 200;
-    margin: 1.5px;}
-
-.text1vinform, .text2vinform, .text3vinform{
-    width: 855px;
-    height: 132.5px;
-    border-radius: 8px;
-    background: #F8F9FA;
-    display: grid;
-    grid-template-rows: 26px 20px 60.5px 26px;
-    grid-template-columns:25px 720.5px 104.5px;
-}
-
-.vestext1vinform, .vestext2vinform, .vestext3vinform{
-    display: grid;
-    grid-column: 2;
-}
-
-.name2, .name3, .name1 {
-    font-family: Helvetica;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19.6px;
-    color: #718096;
-    display: grid;
-    grid-row: 2;
-    grid-column: span 2;
-}
-
-.inform21, .inform22, .inform23{
-    font-weight: 200;
-    margin: 1.5px;}
-
-.ydalitslovo3, .ydalitslovo2, .ydalitslovo1 {
-    color: #E53E3E;
-    width: 49px;
-    height: 15px;
-    font-family: Helvetica;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 15px;
-}
-
-.opis3, .opis2, .opis1{
-    font-family: Helvetica;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    color: #A0AEC0;
-    display: grid;
-    grid-row: 3;
-    grid-column: span 2;
-}
-
-.inform31, .inform32, .inform33{
-    font-weight: 200;
-    margin: 1.5px;}
-
 html{
-    background: #6b9dbd;
+    background: #3182CE;
+}
+
+.berx{
+    width: 1855px;
+    height: 44.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1328px;
+}
+
+.zagol1vbreadcrumb{
+    width: 192px;
+    height: 18px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.zagol2vbreadcrumb{
+    width: 146px;
+    height: 20px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.knopkaboiti{
+    border: solid 1px #ff030300;
+    background: #ffffff00;
+    width: 58px;
+    height: 16px;
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuBreadcrumb{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.textboiti{
+    width: 66.5px;
+    height: 12px;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.knopkanastroiki{
+    width: 12px;
+    height: 12px;
+    border: solid 1px #ff030300;
+    background: #ffffff00;
+}
+
+.knopkazbonka{
+    width: 12px;
+    height: 12px;
+    border: solid 1px #ff030300;
+    background: #ffffff00;
+}
+
+.knopkivtextbreadcrumb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+}
+
+.bbodtexta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    border-width: 0.5px;
+    border: 0.5px solid #E2E8F0;
+    background: #FFFFFF;
+}
+
+.lypu{
+    margin-right: 10px;
+    order: -1;
+    width: 12px;
+    height: 12px;
+    padding: 13.66px 12.68px 13.68px 12.66px ;
+}
+
+.WithAddons{
+    width: 161px;
+    height: 39.5px;
+    border-radius: 8px;
+    border-width: 0.5px;
+    border: 0px solid ;
+    background: #FFFFFF;
+}
+
+.WithAddons:active{
+    border: 0px solid #FFFFFF;
 }
