@@ -8,6 +8,8 @@
 }
 body{
     font-family: "Helvetica", sans-serif;
+    width: 1920px;
+    height: 1182px;
 }
 .card-number {
     margin-top: 80px;
