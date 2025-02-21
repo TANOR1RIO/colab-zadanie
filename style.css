@@ -1,0 +1,112 @@
+html{
+    background: #3182CE;
+}
+
+.berx{
+    width: 1855px;
+    height: 44.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1328px;
+}
+
+.zagol1vbreadcrumb{
+    width: 192px;
+    height: 18px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.zagol2vbreadcrumb{
+    width: 146px;
+    height: 20px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.knopkaboiti{
+    border: solid 1px #ff030300;
+    background: #ffffff00;
+    width: 58px;
+    height: 16px;
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuBreadcrumb{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.textboiti{
+    width: 66.5px;
+    height: 12px;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.knopkanastroiki{
+    width: 12px;
+    height: 12px;
+    border: solid 1px #ff030300;
+    background: #ffffff00;
+}
+
+.knopkazbonka{
+    width: 12px;
+    height: 12px;
+    border: solid 1px #ff030300;
+    background: #ffffff00;
+}
+
+.knopkivtextbreadcrumb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+}
+
+.bbodtexta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    border-width: 0.5px;
+    border: 0.5px solid #E2E8F0;
+    background: #FFFFFF;
+}
+
+.lypu{
+    margin-right: 10px;
+    order: -1;
+    width: 12px;
+    height: 12px;
+    padding: 13.66px 12.68px 13.68px 12.66px ;
+}
+
+.WithAddons{
+    width: 161px;
+    height: 39.5px;
+    border-radius: 8px;
+    border-width: 0.5px;
+    border: 0px solid ;
+    background: #FFFFFF;
+}
+
+.WithAddons:active{
+    border: 0px solid #FFFFFF;
+}
