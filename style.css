@@ -254,6 +254,10 @@ button{
     grid-row: 3;
     grid-column: 3 span;
 }
+.vsesalary {
+    display: flex;
+    margin-left: -450px;
+}
 
 .salary, .salary1{
     width: 240px;
@@ -266,6 +270,10 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.salary,
+.salary1 {
+    margin-right: 10px; /* Добавляем отступ между блоками */
 }
 
 /*.salary, .salary1{
@@ -440,6 +448,8 @@ button{
 
 html{
     background: #6b9dbd;
+    width: 1920px;
+    height: 1182px;
 }
 .card {
     position: relative;
@@ -451,8 +461,6 @@ html{
 }
 body{
     font-family: "Helvetica", sans-serif;
-    width: 1920px;
-    height: 1182px;
 }
 .card-number {
     margin-top: 80px;
@@ -724,4 +732,57 @@ body{
 }
 .positive{
     color: green;
+}
+.sidebar {
+    padding: 20px;
+
+}
+.main-content {
+    margin-top: -768px;
+    margin-left: 300px;
+}
+
+.top-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.card-section {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 430px;
+    
+}
+.info-box {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.content-grid {
+    position: absolute;
+
+    display: grid;
+    grid-template-columns: 1fr 572px;
+    gap: 24px;
+    max-width: 1600px;
+    margin-top: -840px;
+    padding: 0 24px;
+}
+.payment-methods, .account-info {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.transactions-radpolozenie {
+    margin-top: 20px;
+}
+.right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+
 }
